@@ -26,6 +26,6 @@ public class MainActivity extends AppCompatActivity {
         String s = editText.getText().toString();
         int kg = Integer.parseInt(s);
         double pound = 2.205 * kg;
-        textView.setText("The corresponding value in Pounds is  " + pound);
+        textView.setText("The corresponding value in Pounds(lb) is  " + pounds);
     }
     }
